@@ -7,6 +7,7 @@ This template includes:
 - **Nextjs**
 - **Jest**
 - **Testing Library**
+- **Tailwindcss**
 
 ## How to Use
 

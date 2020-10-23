@@ -17,11 +17,7 @@ const Home = () => (
         Get started by editing <code>pages/index.js</code>
       </p>
 
-      <button
-        onClick={() => {
-          window.alert('With typescript and Jest');
-        }}
-      >
+      <button onClick={() => window.alert('With typescript and Jest')}>
         Test Button
       </button>
 
@@ -50,6 +46,13 @@ const Home = () => (
         </a>
       </div>
     </main>
+
+    <style jsx>{`
+      button {
+        @apply text-white font-bold mr-2 py-2 px-4 rounded bg-blue-700;
+        @apply w-40;
+      }
+    `}</style>
   </div>
 );
 
