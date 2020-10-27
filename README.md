@@ -20,7 +20,7 @@ yarn global add degit
 In your terminal, run the following command
 
 ```bash
-yarn exec degit clouw/next-jest-typescript next-app
+yarn exec degit clouw/next-jest-typescript#tailwind next-app
 cd svelte-app
 ```
 
