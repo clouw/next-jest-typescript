@@ -1,6 +1,11 @@
-import '../styles/global.css'
+import '../styles/global.css';
+import { GlobalStyles } from 'twin.macro';
 
-// This default export is required in a new `pages/_app.js` file.
-export default function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const App = ({ Component, pageProps }) => (
+  <>
+    <GlobalStyles />
+    <Component {...pageProps} />
+  </>
+);
+
+export default App;

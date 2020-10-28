@@ -24,8 +24,10 @@ exports[`Home page matches snapshot 1`] = `
           pages/index.js
         </code>
       </p>
-      <button>
-        Test Button
+      <button
+        class="css-osuk61-Home"
+      >
+        Test Button (tailwindcss)
       </button>
       <div
         class="grid"

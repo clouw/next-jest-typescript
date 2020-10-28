@@ -1,5 +1,13 @@
 import Head from 'next/head';
+import tw from 'twin.macro';
 import styles from './index.module.css';
+
+const buttonStyle = tw`
+  bg-blue-700 text-white rounded border border-blue-800
+  shadow
+  py-2 px-4 mt-5
+  hover:bg-blue-900
+`;
 
 const Home = () => (
   <div className={styles.container}>
@@ -18,11 +26,12 @@ const Home = () => (
       </p>
 
       <button
+        css={buttonStyle}
         onClick={() => {
           window.alert('With typescript and Jest');
         }}
       >
-        Test Button
+        Test Button (tailwindcss)
       </button>
 
       <div className={styles.grid}>
