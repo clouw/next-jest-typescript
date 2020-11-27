@@ -1,11 +1,12 @@
 import Head from 'next/head';
-import tw from 'twin.macro';
+import xw from 'xwind';
 import styles from './index.module.css';
 
-const buttonStyle = tw`
-  bg-blue-700 text-white rounded border border-blue-800
+const buttonStyle = xw`
+  bg-blue-600
+  text-white rounded border border-blue-800
   shadow
-  py-2 px-4 mt-5
+  py-4 px-6 mt-5
   hover:bg-blue-900
 `;
 

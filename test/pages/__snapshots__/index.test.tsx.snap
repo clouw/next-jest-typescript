@@ -25,7 +25,7 @@ exports[`Home page matches snapshot 1`] = `
         </code>
       </p>
       <button
-        class="css-osuk61-Home"
+        class="css-9yv7ro-Home"
       >
         Test Button (tailwindcss)
       </button>

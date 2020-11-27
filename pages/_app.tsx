@@ -1,9 +1,10 @@
 import '../styles/global.css';
-import { GlobalStyles } from 'twin.macro';
+import { Global } from '@emotion/react';
+import xw from 'xwind';
 
 const App = ({ Component, pageProps }) => (
   <>
-    <GlobalStyles />
+    <Global styles={xw`XWIND_GLOBAL`} />
     <Component {...pageProps} />
   </>
 );
